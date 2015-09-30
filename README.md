@@ -1,6 +1,13 @@
-## Frontend Best Practices :: BOF
+# Frontend Best Practices :: BOF
 
 *Monday 5:15 - 6:00pm*
+
+
+<style>
+.wrong { background:#d28484; color:white; padding: 5px; }
+.right { background:#80b276; color:white; padding: 5px;  }
+</style>
+
 
 Discussion of best practices with code and visual regression when reviewing PRs and processes on multi-team builds. Topics cover common issues with frontend Drupal theming and their correct alternatives based on scale and performance.
 
@@ -23,7 +30,7 @@ Discussion of best practices with code and visual regression when reviewing PRs 
 <!--wrong: http://screencast.com/t/rO2ca96bukQ
 right: http://screencast.com/t/eNv0Ti4e-->
 
-<span style="background:#d28484; color:white; padding: 5px; ">Wrong</span>
+<span class="wrong">Wrong</span>
 
 ```scss
 .region-header nav.block-system-menublock,
@@ -50,7 +57,7 @@ div.sidebar {
 }
 ```
 
-<span style="background:#80b276; color:white; padding: 5px; ">Right</span>
+<span class="right">Right</span>
 
 
 ```scss
