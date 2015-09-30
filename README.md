@@ -2,13 +2,6 @@
 
 *Monday 5:15 - 6:00pm*
 
-
-<style>
-.wrong { background:#d28484; color:white; padding: 5px; }
-.right { background:#80b276; color:white; padding: 5px;  }
-</style>
-
-
 Discussion of best practices with code and visual regression when reviewing PRs and processes on multi-team builds. Topics cover common issues with frontend Drupal theming and their correct alternatives based on scale and performance.
 
 
@@ -27,10 +20,7 @@ Discussion of best practices with code and visual regression when reviewing PRs 
 
 #### Excessive nesting of selectors in Sass
 
-<!--wrong: http://screencast.com/t/rO2ca96bukQ
-right: http://screencast.com/t/eNv0Ti4e-->
-
-<span class="wrong">Wrong</span>
+![wrong](http://content.screencast.com/users/BedimStudios/folders/Jing/media/447f8d87-041d-4e61-a018-1fbcb9371fa4/00000785.png)
 
 ```scss
 .region-header nav.block-system-menublock,
@@ -57,9 +47,7 @@ div.sidebar {
 }
 ```
 
-<span class="right">Right</span>
-
-
+![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
 ```scss
 .region-header nav.block-system-menublock {
   background: $darkblueish;
@@ -83,14 +71,14 @@ div.sidebar li  a { @extend .common-link; }
 
 #### Abusing overly-specific selectors
 
-<span style="background:#d28484; color:white; padding: 5px; ">Wrong</span>
+![wrong](http://content.screencast.com/users/BedimStudios/folders/Jing/media/447f8d87-041d-4e61-a018-1fbcb9371fa4/00000785.png)
 ```scss
 body.fancy > .nope > div.why > div.dude > span strong {
   display: $yellow;
 }
 ```
-<span style="background:#80b276; color:white; padding: 5px; ">Right</span>
 
+![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
 ```
 span.yellow strong {
   display: $yellow;
@@ -101,7 +89,7 @@ span.yellow strong {
 <!--wrong: http://screencast.com/t/sXjTMPGaYWkQ-->
 <!--right: http://screencast.com/t/aCRH1jgHC-->
 
-<span style="background:#d28484; color:white; padding: 5px; ">Wrong</span>
+![wrong](http://content.screencast.com/users/BedimStudios/folders/Jing/media/447f8d87-041d-4e61-a018-1fbcb9371fa4/00000785.png)
 ```scss
 div.views-fancy .markup-element {
   div.header {
@@ -118,7 +106,7 @@ div.views-fancy .markup-element {
 }
 ```
 
-<span style="background:#80b276; color:white; padding: 5px; ">Right</span>
+![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
 
 ```scss
 div.views-fancy .markup-element .col-4 { // applying col-4 to .header
@@ -134,7 +122,7 @@ div.views-fancy .markup-element .col-8 { // applying col-8 to .body-section
 
 #### Avoiding bloated code caused by @extend and similiar
 
-<span style="background:#d28484; color:white; padding: 5px; ">Wrong</span>
+![wrong](http://content.screencast.com/users/BedimStudios/folders/Jing/media/447f8d87-041d-4e61-a018-1fbcb9371fa4/00000785.png)
 ```scss
 .foo.bar + .sibling {
   color: $green;
@@ -152,7 +140,7 @@ div.views-fancy .markup-element .col-8 { // applying col-8 to .body-section
 }
 ```
 
-<span style="background:#80b276; color:white; padding: 5px; ">Right</span>
+![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
 
 ```scss
 .green {
@@ -179,7 +167,7 @@ div.views-fancy .markup-element .col-8 { // applying col-8 to .body-section
 ####  Using the data-* tag to interact with DOM
 <!--example: http://screencast.com/t/2cVqPpmDXZ-->
 
-<span style="background:#80b276; color:white; padding: 5px; ">Right</span>
+![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
 ```
 // HTML
 <article id="dude" data-columns="5" data-hamburger="yummy" data-fudge="dark">
@@ -196,7 +184,7 @@ dude.dataset.fudge
 
 ####  Separation of functionality in various Drupal behaviors
 
-<span style="background:#80b276; color:white; padding: 5px; ">Right</span>
+![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
 
 ```JS
 Drupal.behaviors.Widget_A = {
@@ -223,13 +211,13 @@ attach: function (context, settings) {
 <!--right: http://screencast.com/t/lPKlPY9F-->
 
 
-<span style="background:#d28484; color:white; padding: 5px; ">Wrong</span>
+![wrong](http://content.screencast.com/users/BedimStudios/folders/Jing/media/447f8d87-041d-4e61-a018-1fbcb9371fa4/00000785.png)
 
 
 ![](http://content.screencast.com/users/BedimStudios/folders/Jing/media/0ce40cca-7514-46cd-910d-8cb2a312a482/00000765.png)
 
 
-<span style="background:#80b276; color:white; padding: 5px; ">Right</span>
+![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
 ```JS
 var timerEl;
 $(window).bind("resize", function () {
@@ -249,7 +237,7 @@ $(window).bind("resize", function () {
 
 ####  Using .length to validate variables
 
-<span style="background:#80b276; color:white; padding: 5px; ">Right</span>
+![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
 ```JS
 var testVar = $("body.section div.something");
 if (testVar.length) { // checks to if exists
@@ -260,7 +248,7 @@ if (testVar.length) { // checks to if exists
 
 ####  Declaring variables for performance
 
-<span style="background:#80b276; color:white; padding: 5px; ">Right</span>
+![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
 ```JS
 // could be improved by storing as a variable
 var something = $('.testelement .something');
@@ -272,14 +260,21 @@ something.click(function(e) {
 
 ####   Use vanilla JS instead of jQuery for  performance
 
+![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
+
 ![](http://content.screencast.com/users/BedimStudios/folders/Jing/media/8f30130d-f485-4fa1-a61f-15e13ce4dfa0/00000780.png)
 
 
 #### Use ID selectors whenever possible
+
+![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
+
 ![](http://content.screencast.com/users/BedimStudios/folders/Jing/media/5202e68e-1591-443e-91f3-e13c0012980c/00000781.png)
 
 
 ####   Combine find() with ID selectors
+
+![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
 
 ```JS
 // one of the faster combinations
@@ -300,14 +295,14 @@ outside.find('.outside-container .certain-element');
 #### Use other options than PNG for non-transparent images
 <!--compare: http://screencast.com/t/V60nORSrFZ3-->
 
-<span style="background:#80b276; color:white; padding: 5px; ">Right</span>
+![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
 
 ![](http://content.screencast.com/users/BedimStudios/folders/Jing/media/f9642337-343d-4876-85ac-c948f9a64a0e/00000782.png)
 
 
 #### Compressing images thru Grunt or Gulp
 
-<span style="background:#80b276; color:white; padding: 5px; ">Right</span>
+![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
 
 ![](http://content.screencast.com/users/BedimStudios/folders/Jing/media/14fc663a-dfbb-409e-b0d0-dbbfa0937663/00000771.png)
 
@@ -325,7 +320,7 @@ outside.find('.outside-container .certain-element');
 
 #### Utilizing preprocess function to namespace custom classes
 
-<span style="background:#80b276; color:white; padding: 5px; ">Right</span>
+![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
 
 ```php
 function example_preprocess_panels_pane(&$vars) {
@@ -347,7 +342,7 @@ function example_preprocess_panels_pane(&$vars) {
 
 ####  Do not use the template.php to insert markup
 
-<span style="background:#d28484; color:white; padding: 5px; ">Wrong</span>
+![wrong](http://content.screencast.com/users/BedimStudios/folders/Jing/media/447f8d87-041d-4e61-a018-1fbcb9371fa4/00000785.png)
 
 ```php
 function thunder_preprocess_block(&$variables) {
@@ -361,7 +356,7 @@ function thunder_preprocess_block(&$variables) {
 
 #### Do not use cacheable functions designed for modules
 
-<span style="background:#d28484; color:white; padding: 5px; ">Wrong</span>
+![wrong](http://content.screencast.com/users/BedimStudios/folders/Jing/media/447f8d87-041d-4e61-a018-1fbcb9371fa4/00000785.png)
 
 ```php
 function thunder_preprocess_page(&$variables) {
@@ -375,7 +370,7 @@ function thunder_preprocess_page(&$variables) {
 
 #### Avoid commonly called preprocess function
 
-<span style="background:#d28484; color:white; padding: 5px; ">Wrong</span>
+![wrong](http://content.screencast.com/users/BedimStudios/folders/Jing/media/447f8d87-041d-4e61-a018-1fbcb9371fa4/00000785.png)
 
 
 ```php
@@ -401,6 +396,8 @@ function thunder_preprocess_field(&$variables, $hook) {
 #### excessive markup in TPL files
 
 #### excessive PHP logic  in TPL files
+
+
 
 
 
