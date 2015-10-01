@@ -409,6 +409,8 @@ function thunder_preprocess_field(&$variables, $hook) {
 
 #### Restrict PHP in TPLs to basic conditional statements  
 
+![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
+
 ```php 
 <?php if (isset($cheese)): ?>
   <h2><?php print $cheese; ?></h2>
