@@ -350,8 +350,6 @@ function thunder_preprocess_block(&$variables) {
 }
 ```
 
-
-
 #### Do not use cacheable functions designed for modules
 
 ![wrong](http://content.screencast.com/users/BedimStudios/folders/Jing/media/447f8d87-041d-4e61-a018-1fbcb9371fa4/00000785.png)
@@ -418,7 +416,6 @@ theme('examplereference', $variables)
 // examplereference.tpl.php
 <p><a href="<?php print $link; ?>"><?php print $name; ?></a></p>
 <p><?php print $extra; ?></p>
-
 ```
 
 
