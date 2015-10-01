@@ -398,6 +398,12 @@ function thunder_preprocess_field(&$variables, $hook) {
 
 #### excessive PHP logic  in TPL files
 
+####   Other Topics
+
+* Do not use inline CSS within TPL files 
+* oxo
+
+
 
 
 
