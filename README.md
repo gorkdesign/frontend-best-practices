@@ -5,7 +5,6 @@
 Discussion of best practices with code and visual regression when reviewing PRs and processes on multi-team builds. Topics cover common issues with frontend Drupal theming and their correct alternatives based on scale and performance.
 
 
-<!-- https://confluence.acquia.com/download/attachments/24290053/Rotary-Frontend-Workshop.pdf?version=1&modificationDate=1438903802000&api=v2 -->
 
 **Primary areas of focus**
 * Sass / CSS
