@@ -392,7 +392,7 @@ function thunder_preprocess_field(&$variables, $hook) {
 
 #### Do not use TPL files to store excessive markup 
 
-```html 
+```html
 <!-- I really belong in a theme_menu_link() --> 
 <div class="nope">
   <ul id="menu-thang">
