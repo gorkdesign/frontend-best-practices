@@ -407,7 +407,7 @@ function example_theme() {
       'template' => 'mymarkup',
       'variables' => array(
         'name' => NULL,
-        'link' => NULL,
+        'job' => NULL,
       ),
     )
   );
@@ -417,8 +417,8 @@ function example_theme() {
 theme('examplereference', $variables)
 
 // examplereference.tpl.php
-<p><a href="<?php print $link; ?>"><?php print $name; ?></a></p>
-<p><?php print $extra; ?></p>
+<div class="name"><?php print $name; ?></div>
+<div class="job"><?php print $job; ?></div>
 ```
 
 
