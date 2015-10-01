@@ -426,7 +426,7 @@ theme('examplereference', $variables)
 ####   Other Topics
 
 * Do not use inline CSS or Javascript within TPL files 
-* Consolidate multiple TPL files with ```$vars['theme_hook_suggestion']```
+* Consolidate multiple TPL files with  ```$vars['theme_hook_suggestion']```
 * Leverage Drupal UI functionality like views modes or panels instead of hard coded markup if consistency allows 
 
 
