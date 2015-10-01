@@ -390,9 +390,10 @@ function thunder_preprocess_field(&$variables, $hook) {
 
 #### multiple page.tpl.ph files
 
-#### excessive markup in TPL files
+#### Do not use TPL files to store excessive markup 
 
-```php 
+```html 
+<!-- I really belong in a theme_menu_link() --> 
 <div class="nope">
   <ul id="menu-thang">
     <li class="first"><?php print $dude; ?></li>
