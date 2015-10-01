@@ -395,11 +395,11 @@ function thunder_preprocess_field(&$variables, $hook) {
 #### Restrict PHP in TPLs to basic conditional statements  
 
 ```php 
-<?php if (isset($name)): ?>
-  <h2><?php print $name; ?></h2>
+<?php if (isset($cheese)): ?>
+  <h2><?php print $cheese; ?></h2>
 <?php endif; ?>
 
-<?php print render($title_notation); ?>
+<?php !empty($hamburgers) ? render($hamburgers) : 'nada' ?>
 ```
 
 
