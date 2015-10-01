@@ -356,6 +356,7 @@ function thunder_preprocess_block(&$variables) {
 
 ![wrong](http://content.screencast.com/users/BedimStudios/folders/Jing/media/447f8d87-041d-4e61-a018-1fbcb9371fa4/00000785.png)
 
+
 ```php
 function thunder_preprocess_page(&$variables) {
   // no, no, no
@@ -392,6 +393,8 @@ function thunder_preprocess_field(&$variables, $hook) {
 #### multiple page.tpl.ph files
 
 #### excessive markup in TPL files
+
+#### excessive PHP logic  in TPL files
 
 #### excessive PHP logic  in TPL files
 
