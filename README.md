@@ -447,7 +447,6 @@ theme('examplereference', $variables)
 ```
 
 
-
 ####   Other Topics
 
 * Do not use inline CSS or Javascript within TPL files 
