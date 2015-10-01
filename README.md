@@ -1,6 +1,6 @@
 # Frontend Best Practices :: BOF
 
-*Monday 5:15 - 6:00pm*
+*Monday 5:15 - 6:00pm* 
 
 Discussion of best practices with code and visual regression when reviewing PRs and processes on multi-team builds. Topics cover common issues with frontend Drupal theming and their correct alternatives based on scale and performance.
 
