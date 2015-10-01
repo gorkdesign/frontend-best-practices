@@ -400,9 +400,9 @@ function thunder_preprocess_field(&$variables, $hook) {
 
 ####   Other Topics
 
-* Do not use inline CSS within TPL files 
+* Do not use inline CSS or Javascript within TPL files 
 * Consolidate multiple TPL files with ```$vars['theme_hook_suggestion']```
-* Leverage Drupal UI
+* Leverage Drupal UI functionality like views modes or panels instead of hard coded markup if consistency allows 
 
 
 
