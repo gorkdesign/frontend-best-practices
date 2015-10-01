@@ -366,7 +366,7 @@ function thunder_preprocess_page(&$variables) {
 }
 ```
 
-#### Avoid commonly called preprocess function
+#### Avoid high-traffic preprocess functions
 
 ![wrong](http://content.screencast.com/users/BedimStudios/folders/Jing/media/447f8d87-041d-4e61-a018-1fbcb9371fa4/00000785.png)
 
