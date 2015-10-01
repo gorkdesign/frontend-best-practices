@@ -396,7 +396,7 @@ function thunder_preprocess_field(&$variables, $hook) {
 
 #### excessive PHP logic  in TPL files
 
-#### excessive PHP logic  in TPL files
+#### Theme functions instead of duplicating markup in multiple files
 
 ####   Other Topics
 
