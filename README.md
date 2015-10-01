@@ -398,6 +398,31 @@ function thunder_preprocess_field(&$variables, $hook) {
 
 #### Theme functions instead of duplicating markup in multiple files
 
+```PHP
+// Implementation of hook_theme().
+function example_theme() {
+  return array(
+    'examplereference' => array(
+      'template' => 'mymarkup',
+      'variables' => array(
+        'name' => NULL,
+        'link' => NULL,
+      ),
+    )
+  );
+}
+
+// reference then as 
+theme('examplereference', $variables)
+
+// examplereference.tpl.php
+<p><a href="<?php print $link; ?>"><?php print $name; ?></a></p>
+<p><?php print $extra; ?></p>
+
+```
+
+
+
 ####   Other Topics
 
 * Do not use inline CSS or Javascript within TPL files 
