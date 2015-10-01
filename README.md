@@ -297,7 +297,7 @@ outside.find('.outside-container .certain-element');
 ![](http://content.screencast.com/users/BedimStudios/folders/Jing/media/f9642337-343d-4876-85ac-c948f9a64a0e/00000782.png)
 
 
-#### Compressing images thru Grunt or Gulp
+#### Compressing images thru Grunt or Gulp 
 
 ![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
 
