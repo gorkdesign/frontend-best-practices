@@ -402,6 +402,7 @@ function thunder_preprocess_field(&$variables, $hook) {
 
 * Do not use inline CSS within TPL files 
 * Consolidate multiple TPL files with ```$vars['theme_hook_suggestion']```
+* Leverage Drupal UI
 
 
 
