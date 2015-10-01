@@ -440,8 +440,10 @@ function example_theme() {
 theme('examplereference', $variables)
 
 // examplereference.tpl.php
-<div class="name"><?php print $name; ?></div>
-<div class="job"><?php print $job; ?></div>
+<div class="bro">
+  <div class="name"><?php print $name; ?></div>
+  <div class="job"><?php print $job; ?></div>
+</div>
 ```
 
 
