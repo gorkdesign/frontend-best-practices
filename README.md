@@ -392,6 +392,17 @@ function thunder_preprocess_field(&$variables, $hook) {
 
 #### excessive markup in TPL files
 
+```php 
+<div class="nope">
+  <ul id="menu-thang">
+    <li class="first"><?php print $dude; ?></li>
+    <li class="second">You</li>
+    <li class="third">Together<span>icon</span></li>
+  </ul>
+</div>
+```
+
+
 #### Restrict PHP in TPLs to basic conditional statements  
 
 ```php 
