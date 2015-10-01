@@ -392,7 +392,16 @@ function thunder_preprocess_field(&$variables, $hook) {
 
 #### excessive markup in TPL files
 
-#### excessive PHP logic  in TPL files
+#### Restrict PHP in TPLs to basic conditional statements  
+
+```php 
+<?php if (isset($name)): ?>
+  <h2><?php print $name; ?></h2>
+<?php endif; ?>
+
+<?php print render($title_notation); ?>
+```
+
 
 #### Theme functions instead of duplicating markup in multiple files
 
