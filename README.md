@@ -287,7 +287,6 @@ outside.find('.outside-container .certain-element');
 * Avoid removing, adding, or manipulating DOM elements
 
 
-
 ## Images
 
 #### Use other options than PNG for non-transparent images
