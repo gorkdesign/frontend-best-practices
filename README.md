@@ -313,7 +313,13 @@ outside.find('.outside-container .certain-element');
 
 ## Preprocessing functions
 
-#### Use Hook theme suggestions *** TODO
+#### Combine files with common markup with theme suggestions *** TODO
+
+```php 
+if ($vars['node']->type == ('fancy' || 'fun')) {
+  $vars['theme_hook_suggestions'][] = 'extra--node--markup';
+}
+```
 
 #### Utilizing preprocess function to namespace custom classes
 
