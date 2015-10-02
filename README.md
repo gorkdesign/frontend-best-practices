@@ -6,7 +6,7 @@ Discussion of best practices with code and visual regression when reviewing PRs 
 
 
 **Primary areas of focus**
-* Sass / CSS
+*  [Sass / CSS](#pookie)
 * JavaScript
 * Images
 * Preprocessing functions
@@ -14,7 +14,7 @@ Discussion of best practices with code and visual regression when reviewing PRs 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-## Sass / CSS <a name="sas"></a>
+## Sass / CSS <a name="sass"></a>
 
 #### Excessive nesting of selectors in Sass
 
