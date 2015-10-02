@@ -336,7 +336,7 @@ function example_preprocess_panels_pane(&$vars) {
 }
 ```
 
-#### Combine files with common markup with ```['theme_hook_suggestions']```
+#### Combine files with common markup with ```theme_hook_suggestions```
 
 ![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
 
@@ -358,7 +358,7 @@ function thunder_preprocess_block(&$variables) {
 }
 ```
 
-#### Refrain from using functions that could be cacheable in a separa modules
+#### Refrain from using functions that could be cacheable in a separate modules
 
 ![wrong](http://content.screencast.com/users/BedimStudios/folders/Jing/media/447f8d87-041d-4e61-a018-1fbcb9371fa4/00000785.png)
 
