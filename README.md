@@ -46,6 +46,7 @@ div.sidebar {
 ```
 
 ![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
+
 ```scss
 .region-header nav.block-system-menublock {
   background: $darkblueish;
@@ -65,6 +66,26 @@ div.sidebar li  a { @extend .common-link; }
 ```
 
 
+
+#### Mobile first media queries"
+
+![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
+
+```scss
+.container {
+  &__title {
+    color: aqua;
+    @include breakpoint($tablet) {
+      color: green;
+      max-width: 100px;
+    }
+    @include breakpoint($desktop) {
+      color: purple;
+      max-width: 500px;
+    }
+  }
+}
+```
 
 
 #### Abusing overly-specific selectors
