@@ -6,7 +6,7 @@ Discussion of best practices with code and visual regression when reviewing PRs 
 
 
 **Primary areas of focus**
-*  [Sass / CSS](#pookie)
+*  [Sass / CSS](#sass) 
 * JavaScript
 * Images
 * Preprocessing functions
