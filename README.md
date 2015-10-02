@@ -388,10 +388,8 @@ function thunder_preprocess_field(&$variables, $hook) {
 
 ####   Other Topics
 
-* oxo
-* oxo
-
-
+* Move lengthy functions into separate required .inc files
+* Include helper functions in custom module required by the theme
 
 
 ## Template files
