@@ -10,7 +10,7 @@ Discussion of best practices with code and visual regression when reviewing PRs 
 * [JavaScript](#js) 
 * [Images](#images) 
 * [Preprocessing functions](#preprocessing)  
-* [Template files](#templates)  
+* [Template files](#templates)
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -391,8 +391,8 @@ function thunder_preprocess_field(&$variables, $hook) {
 * Move lengthy functions into separate required .inc files
 * Include helper functions in custom module required by the theme
 
-
-## Template files <a name="templa"></a>
+<a name="templates"></a>
+## Template files 
 
 #### Avoid multiple page.tpl.php files with more advanced conditionals
 
