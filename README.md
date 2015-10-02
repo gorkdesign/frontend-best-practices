@@ -398,17 +398,18 @@ function thunder_preprocess_field(&$variables, $hook) {
 
 #### Avoid multiple page.tpl.php files with more advanced conditionals 
 
-![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
+![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png) 
 
 ```php
 <?php if (!empty($custom_topsection) ||  count(array_keys($page['content'])) < 4 : ?>
   <?php print render($page['page_variation']); ?>
-<?php endif; ?>```
+<?php endif; ?>
+```
 
 #### Don't use TPL files to store excessive markup   
-
+ 
 ![wrong](http://content.screencast.com/users/BedimStudios/folders/Jing/media/447f8d87-041d-4e61-a018-1fbcb9371fa4/00000785.png)
-
+ 
 ``` 
 <!-- I really belong in a theme_menu_link() --> 
 <div class="nope">
