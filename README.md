@@ -1,4 +1,4 @@
-# Frontend Best Practices :: BOF
+# Frontend Best Practices // Breakout Session
 
 *Monday 5:15 - 6:00pm* 
 
