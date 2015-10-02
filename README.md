@@ -358,7 +358,7 @@ function thunder_preprocess_block(&$variables) {
 }
 ```
 
-#### Avoid cacheable functions designed for modules
+#### Refrain from using functions that could be cacheable in a separa modules
 
 ![wrong](http://content.screencast.com/users/BedimStudios/folders/Jing/media/447f8d87-041d-4e61-a018-1fbcb9371fa4/00000785.png)
 
