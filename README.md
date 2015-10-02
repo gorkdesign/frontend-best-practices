@@ -313,13 +313,6 @@ outside.find('.outside-container .certain-element');
 
 ## Preprocessing functions
 
-#### Combine files with common markup with theme suggestions *** TODO
-
-```php 
-if ($vars['node']->type == ('fancy' || 'fun')) {
-  $vars['theme_hook_suggestions'][] = 'extra--node--markup';
-}
-```
 
 #### Utilizing preprocess function to namespace custom classes
 
@@ -340,6 +333,16 @@ function example_preprocess_panels_pane(&$vars) {
       $vars['classes_array'][] = 'my-grid-3';
       break;
   }
+}
+```
+
+#### Combine files with common markup with theme suggestions
+
+![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
+
+```php 
+if ($vars['node']->type == ('fancy' || 'fun')) {
+  $vars['theme_hook_suggestions'][] = 'extra--node--markup';
 }
 ```
 
