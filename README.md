@@ -73,7 +73,8 @@ div.sidebar li  a { @extend .common-link; }
 
 ```scss
 .container {
-  &__title {
+  .side-column {
+    max-width: auto;
     color: aqua;
     @include breakpoint($tablet) {
       color: green;
