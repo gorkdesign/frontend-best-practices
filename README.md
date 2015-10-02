@@ -84,25 +84,26 @@ span.yellow strong {
 }
 ```
 
-#### Failing to write Sass code as components
+#### Focusing on writing Sass as components
 <!--wrong: http://screencast.com/t/sXjTMPGaYWkQ-->
 <!--right: http://screencast.com/t/aCRH1jgHC-->
 
 ![wrong](http://content.screencast.com/users/BedimStudios/folders/Jing/media/447f8d87-041d-4e61-a018-1fbcb9371fa4/00000785.png)
 ```scss
-div.views-fancy .markup-element {
-  div.header {
+.fancy  {
+  &__title {
     float: left;
     width: 20%;
     color: $orange;
     background: $blue;
   }
-  div.body-section {
+  &__date {
     float: left;
     width: 80%;
     background: $fancy-gradient;
   }
 }
+
 ```
 
 ![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
@@ -116,6 +117,16 @@ div.views-fancy .markup-element .col-4 { // applying col-4 to .header
 div.views-fancy .markup-element .col-8 { // applying col-8 to .body-section
     background: $fancy-gradient;
 }
+
+.fancy {
+  &--title {
+    color: blue;
+  }
+  &--date {
+    something: something;
+  }
+}
+
 ```
 
 
