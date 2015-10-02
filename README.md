@@ -84,7 +84,7 @@ span.yellow strong {
 }
 ```
 
-#### Focusing on writing Sass as components
+#### Writing Sass as components
 <!--wrong: http://screencast.com/t/sXjTMPGaYWkQ-->
 <!--right: http://screencast.com/t/aCRH1jgHC-->
 
