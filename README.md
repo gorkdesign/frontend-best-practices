@@ -448,7 +448,7 @@ function example_theme() {
         'job' => NULL,
       ),
     )
-  )}
+  )} 
 
 // reference then as 
 theme('examplereference', $variables)
