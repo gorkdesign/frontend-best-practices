@@ -314,7 +314,7 @@ outside.find('.outside-container .certain-element');
 
 ####   Other Topics
 * Refrain from using .animate() unless required
-* Make use of async and defer
+* Make use of [async](https://developers.google.com/speed/docs/insights/UseAsync) and defer
 * Don't use inline CSS set by JS when classes will work
 * Avoid removing, adding, or manipulating DOM elements
 
