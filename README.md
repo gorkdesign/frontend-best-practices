@@ -287,7 +287,7 @@ something.click(function(e) {
 ```JS
 // one of the faster combinations
 var outside = $("#outside-container")
-outside.find('.outside-container .certain-element');
+outside.find('.outside-container .certain-element'); 
 ```
 
 ####   Other Topics
