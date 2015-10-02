@@ -393,6 +393,7 @@ function thunder_preprocess_field(&$variables, $hook) {
 * Include helper functions in custom module required by the theme
 
 <a name="templates"></a>
+
 ## Template files 
 
 #### Avoid multiple page.tpl.php files with more advanced conditionals 
