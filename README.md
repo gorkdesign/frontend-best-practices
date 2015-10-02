@@ -14,7 +14,8 @@ Discussion of best practices with code and visual regression when reviewing PRs 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-## Sass / CSS <a name="sass"></a>
+<a name="sass"></a>
+## Sass / CSS 
 
 #### Excessive nesting of selectors in Sass
 
