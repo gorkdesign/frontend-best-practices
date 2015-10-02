@@ -400,7 +400,7 @@ function thunder_preprocess_field(&$variables, $hook) {
 
 ![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png) 
 
-```php
+```php 
 <?php if (!empty($custom_topsection) ||  count(array_keys($page['content'])) < 4 : ?>
   <?php print render($page['page_variation']); ?>
 <?php endif; ?>
