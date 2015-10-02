@@ -160,8 +160,8 @@ div.views-fancy .markup-element .col-8 { // applying col-8 to .body-section
 * Understanding the proper scenarios to use extends, mixins, or similiar
 
 
-
-## JavaScript <a name="js"></a>
+<a name="js"></a>
+## JavaScript 
 
 ####  Using the data-* tag to interact with DOM
 <!--example: http://screencast.com/t/2cVqPpmDXZ-->
@@ -287,8 +287,8 @@ outside.find('.outside-container .certain-element');
 * Don't use inline CSS set by JS when classes will work
 * Avoid removing, adding, or manipulating DOM elements
 
-
-## Images <a name="images"></a>
+<a name="images"></a>
+## Images 
 
 #### Use other options than PNG for non-transparent images
 <!--compare: http://screencast.com/t/V60nORSrFZ3-->
@@ -311,8 +311,8 @@ outside.find('.outside-container .certain-element');
 * Lazy-loading images for parallax styles
 * Make use of the ```<picture>``` HTML5 tag
 
-
-## Preprocessing functions <a name="preprocessing"></a>
+<a name="preprocessing"></a> 
+## Preprocessing functions 
  
 
 #### Utilizing preprocess function to namespace custom classes
