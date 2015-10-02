@@ -118,7 +118,7 @@ div.views-fancy .markup-element .col-8 { // applying col-8 to .body-section
 ```
 
 
-#### Avoiding bloated code caused by @extend and similiar
+#### Avoiding bloated code caused by @extend and similar
 
 ![wrong](http://content.screencast.com/users/BedimStudios/folders/Jing/media/447f8d87-041d-4e61-a018-1fbcb9371fa4/00000785.png)
 ```scss
@@ -160,7 +160,7 @@ div.views-fancy .markup-element .col-8 { // applying col-8 to .body-section
 
 
 
-## JavaScript
+## JavaScript <a name="js"></a>
 
 ####  Using the data-* tag to interact with DOM
 <!--example: http://screencast.com/t/2cVqPpmDXZ-->
@@ -287,7 +287,7 @@ outside.find('.outside-container .certain-element');
 * Avoid removing, adding, or manipulating DOM elements
 
 
-## Images
+## Images <a name="images"></a>
 
 #### Use other options than PNG for non-transparent images
 <!--compare: http://screencast.com/t/V60nORSrFZ3-->
@@ -311,8 +311,8 @@ outside.find('.outside-container .certain-element');
 * Make use of the ```<picture>``` HTML5 tag
 
 
-## Preprocessing functions
-
+## Preprocessing functions <a name="preprocessing"></a>
+ 
 
 #### Utilizing preprocess function to namespace custom classes
 
@@ -392,7 +392,7 @@ function thunder_preprocess_field(&$variables, $hook) {
 * Include helper functions in custom module required by the theme
 
 
-## Template files
+## Template files <a name="templa"></a>
 
 #### Avoid multiple page.tpl.php files with more advanced conditionals
 
