@@ -468,6 +468,10 @@ theme('examplereference', $variables)
 * Leverage Drupal UI functionality like views modes or panels instead of hard coded markup if consistency allows 
 
 
+<hr />
+
+
+![](http://www.gifmania.co.uk/Messages-Animated-Gifs/Animated-The-End/Hand-Writing-The-End-84758.gif)
 
 
 
