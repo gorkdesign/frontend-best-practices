@@ -109,6 +109,8 @@ span.yellow strong {
 ![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
 
 ```scss
+.fancy  {
+  &__title {
 div.views-fancy .markup-element .col-4 { // applying col-4 to .header
   color: $orange;
   background: $blue;
