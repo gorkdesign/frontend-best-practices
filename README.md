@@ -109,23 +109,20 @@ span.yellow strong {
 ![right](http://content.screencast.com/users/BedimStudios/folders/Jing/media/ba6f0338-c3e3-4ad5-bf1e-5983e7d4d46e/00000786.png)
 
 ```scss
+.col-4 { 
+  @include span(4); // add col-4 class to .fancy--title
+}
+.col-8 { 
+  @include span(8 last); // add col-4 class to .fancy--date 
+}
+ 
 .fancy  {
   &__title {
-div.views-fancy .markup-element .col-4 { // applying col-4 to .header
-  color: $orange;
-  background: $blue;
-}
-
-div.views-fancy .markup-element .col-8 { // applying col-8 to .body-section
-    background: $fancy-gradient;
-}
-
-.fancy {
-  &--title {
-    color: blue;
+    color: $orange;
+    background: $blue;
   }
-  &--date {
-    something: something;
+  &__date {
+    background: $fancy-gradient;
   }
 }
 
