@@ -346,7 +346,7 @@ if ($vars['node']->type == ('fancy' || 'nancy')) {
 }
 ```
 
-####  Do not use the template.php to insert markup
+####  Don't lean on th template.php to insert markup
 
 ![wrong](http://content.screencast.com/users/BedimStudios/folders/Jing/media/447f8d87-041d-4e61-a018-1fbcb9371fa4/00000785.png)
 
