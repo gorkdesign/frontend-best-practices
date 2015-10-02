@@ -6,11 +6,11 @@ Discussion of best practices with code and visual regression when reviewing PRs 
 
 
 **Primary areas of focus**
-*  [Sass / CSS](#sass) 
-* JavaScript
-* Images
-* Preprocessing functions
-* Template files
+* [Sass / CSS](#sass) 
+* [JavaScript](#js) 
+* [Images](#images) 
+* [Preprocessing functions](#preprocessing)  
+* [Template files](#templa)  
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
