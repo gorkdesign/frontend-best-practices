@@ -309,7 +309,7 @@ outside.find('.outside-container .certain-element');
 * Using SVG images to replace common image assets
 * Make use of sprites as a cachable element
 * Lazy-loading images for parallax styles
-* Use alternatives like ```srcset``` or ```<picture>``` tags 
+* Use alternatives like ```srcset``` or ```<picture>``` tags
 
 <a name="preprocessing"></a> 
 ## Preprocessing functions 
