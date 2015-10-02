@@ -110,10 +110,10 @@ span.yellow strong {
 
 ```scss
 .col-4 { 
-  @include span(4); // add col-4 class to .fancy__title
+  @include span(4); // add additional .col-4 class to .fancy__title
 }
 .col-8 { 
-  @include span(8 last); // add col-4 class to .fancy__date 
+  @include span(8 last); // add additional .col-8 to .fancy__date 
 }
  
 .fancy  {
