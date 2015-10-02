@@ -10,7 +10,7 @@ Discussion of best practices with code and visual regression when reviewing PRs 
 * [JavaScript](#js) 
 * [Images](#images) 
 * [Preprocessing functions](#preprocessing)  
-* [Template files](#templa)  
+* [Template files](#templates)  
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
