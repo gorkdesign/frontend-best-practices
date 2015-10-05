@@ -1,7 +1,5 @@
 # Frontend Best Practices // Breakout Session
 
-*Monday 5:15 - 6:00pm*
-
 Discussion of best practices with code and visual regression when reviewing PRs and processes on multi-team builds. Topics cover common issues with Drupal theming and their correct alternatives based on scale and performance.
  
 ### Primary Areas of Focus
